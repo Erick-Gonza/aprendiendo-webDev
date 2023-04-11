@@ -1,0 +1,30 @@
+{
+  "name": "aprende-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "dev": "vite",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "happy-dom": "^8.9.0",
+    "standard": "^17.0.0",
+    "vitest": "^0.29.8"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "dependencies": {
+    "mathjs": "^11.7.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
